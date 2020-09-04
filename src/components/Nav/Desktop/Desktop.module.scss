@@ -1,5 +1,13 @@
 @import '../../../styles/global';
 .container {
+    &.active {
+        .nav {
+            a {
+                color: white;
+            }
+        }
+    }
+    
     .nav {
         width: 80%;
         display: flex;
@@ -38,6 +46,7 @@
                 }
             }
         }
+        
     }
 }
 

@@ -1,10 +1,10 @@
 import React from 'react'
 import Logo from '../../../svgr/Logo';
 import styles from './Desktop.module.scss'
-
+import cx from 'classnames';
 const Desktop = ({isSticky}) => {
     return (
-        <div className={styles.container}>
+        <div className={isSticky ? cx(styles.container, styles.active) : styles.container}>
             <div className={styles.nav}>
                 <div className={styles.logo__container}>    
                     <Logo color={isSticky ? '#ffffff' : '#3B5441'}/>
