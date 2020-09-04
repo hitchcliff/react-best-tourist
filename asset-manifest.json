@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/react-best-tourist/static/css/main.7574cd87.chunk.css",
-    "main.js": "/react-best-tourist/static/js/main.9590628b.chunk.js",
-    "main.js.map": "/react-best-tourist/static/js/main.9590628b.chunk.js.map",
+    "main.css": "/react-best-tourist/static/css/main.c3f10b7f.chunk.css",
+    "main.js": "/react-best-tourist/static/js/main.df006356.chunk.js",
+    "main.js.map": "/react-best-tourist/static/js/main.df006356.chunk.js.map",
     "runtime-main.js": "/react-best-tourist/static/js/runtime-main.a158fc15.js",
     "runtime-main.js.map": "/react-best-tourist/static/js/runtime-main.a158fc15.js.map",
-    "static/js/2.afcb3401.chunk.js": "/react-best-tourist/static/js/2.afcb3401.chunk.js",
-    "static/js/2.afcb3401.chunk.js.map": "/react-best-tourist/static/js/2.afcb3401.chunk.js.map",
+    "static/js/2.a9ea3099.chunk.js": "/react-best-tourist/static/js/2.a9ea3099.chunk.js",
+    "static/js/2.a9ea3099.chunk.js.map": "/react-best-tourist/static/js/2.a9ea3099.chunk.js.map",
     "index.html": "/react-best-tourist/index.html",
-    "precache-manifest.8bb16cebe6e326a34eaebc310b301587.js": "/react-best-tourist/precache-manifest.8bb16cebe6e326a34eaebc310b301587.js",
+    "precache-manifest.36e0c59bd2ba36656cc23b3ac7fc1733.js": "/react-best-tourist/precache-manifest.36e0c59bd2ba36656cc23b3ac7fc1733.js",
     "service-worker.js": "/react-best-tourist/service-worker.js",
-    "static/css/main.7574cd87.chunk.css.map": "/react-best-tourist/static/css/main.7574cd87.chunk.css.map",
-    "static/js/2.afcb3401.chunk.js.LICENSE.txt": "/react-best-tourist/static/js/2.afcb3401.chunk.js.LICENSE.txt",
+    "static/css/main.c3f10b7f.chunk.css.map": "/react-best-tourist/static/css/main.c3f10b7f.chunk.css.map",
+    "static/js/2.a9ea3099.chunk.js.LICENSE.txt": "/react-best-tourist/static/js/2.a9ea3099.chunk.js.LICENSE.txt",
     "static/media/2.jpg": "/react-best-tourist/static/media/2.191b834e.jpg",
     "static/media/4.jpeg": "/react-best-tourist/static/media/4.ddd3b0de.jpeg",
     "static/media/5.jpg": "/react-best-tourist/static/media/5.9557f750.jpg",
@@ -21,8 +21,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.a158fc15.js",
-    "static/js/2.afcb3401.chunk.js",
-    "static/css/main.7574cd87.chunk.css",
-    "static/js/main.9590628b.chunk.js"
+    "static/js/2.a9ea3099.chunk.js",
+    "static/css/main.c3f10b7f.chunk.css",
+    "static/js/main.df006356.chunk.js"
   ]
 }

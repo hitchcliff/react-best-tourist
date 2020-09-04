@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "471fe7ef72665d342ee960ce3ed20cf7",
+    "revision": "c71902793f901cc6c1a105d3ac4a9f09",
     "url": "/react-best-tourist/index.html"
   },
   {
-    "revision": "1cfa4e6b71d9bb423944",
-    "url": "/react-best-tourist/static/css/main.7574cd87.chunk.css"
+    "revision": "fceffdd8e520c00e3e1c",
+    "url": "/react-best-tourist/static/css/main.c3f10b7f.chunk.css"
   },
   {
-    "revision": "92eda25a82ca46cb4bfd",
-    "url": "/react-best-tourist/static/js/2.afcb3401.chunk.js"
+    "revision": "6fac9c6a544fc1cd0647",
+    "url": "/react-best-tourist/static/js/2.a9ea3099.chunk.js"
   },
   {
     "revision": "5ac48c47bb3912b14c2d8de4f56d5ae8",
-    "url": "/react-best-tourist/static/js/2.afcb3401.chunk.js.LICENSE.txt"
+    "url": "/react-best-tourist/static/js/2.a9ea3099.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "1cfa4e6b71d9bb423944",
-    "url": "/react-best-tourist/static/js/main.9590628b.chunk.js"
+    "revision": "fceffdd8e520c00e3e1c",
+    "url": "/react-best-tourist/static/js/main.df006356.chunk.js"
   },
   {
     "revision": "99e4769903d20edbcdfd",
