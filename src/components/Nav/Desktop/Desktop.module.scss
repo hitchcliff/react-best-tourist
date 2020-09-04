@@ -1,0 +1,48 @@
+@import '../../../styles/global';
+.container {
+    .nav {
+        width: 80%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        margin: auto;
+    
+        &__container {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+    
+            li {
+                list-style-type: none;
+                
+                &:not(:last-child) {
+                    margin-right: 30px;
+                }
+    
+                a {
+                    text-decoration: none;
+                    color: $textColor;
+                }
+    
+                
+            }
+    
+            .nav__login {
+    
+                a {
+                    color: white;
+                    background: $subColor;
+                    padding: 10px 20px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 980px) {
+    .container {
+        display: none;
+    }
+}

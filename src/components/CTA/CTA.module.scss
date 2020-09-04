@@ -1,0 +1,15 @@
+@import '../../styles/global';
+
+.container {
+    padding: 30px;
+    background: $secondary;
+    position: sticky;
+    bottom: 0;
+    box-shadow: $primaryBoxShadow;
+   
+
+    &.active {
+        background:  $primaryGradient;
+    }
+}
+

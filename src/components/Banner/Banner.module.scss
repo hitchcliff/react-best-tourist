@@ -1,0 +1,61 @@
+@import '../../styles/global';
+
+.container {
+    .banner_container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+
+        .banner__image {
+            position: relative;
+
+            img {
+                height: 100%;
+            }
+
+            div {
+                position: absolute;
+                left: 0;
+                bottom: 0;
+                padding: 50px;
+            }
+        }
+
+        .banner__content {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            position: sticky;
+            top: 0;
+            background: white;
+            
+            .banner__showcaseContent {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+
+                
+            }
+            
+            .banner__showcaseImage {
+                overflow: hidden;
+
+                img {
+                    transform: scale(1.1);
+                }
+            }
+
+            // CHANGE DIRECTION
+            &:nth-child(even) {
+                direction: rtl;
+            }
+        }
+    }
+}
+
+@media (max-width: 980px) {
+    .container {
+        .banner_container {
+            grid-template-columns: 1fr;
+        }
+    }
+}

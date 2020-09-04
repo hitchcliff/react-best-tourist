@@ -1,0 +1,23 @@
+@import './styles/_global.scss';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Nunito', sans-serif;
+  font-size: 100%;
+  font-weight: $regular;
+}
+
+img {
+  width: 100%;
+  object-fit: cover;
+}
+
+// IMPORTS
+@import './styles/heading';
+@import './styles/view.more';
+@import './styles/heading.media';

@@ -1,0 +1,73 @@
+h1 {
+    text-transform: capitalize;
+    font-size: 2.5rem;
+    line-height: 2.5rem;
+    font-weight: $semiBold;
+}
+
+h2 {
+    font-size: 1.9rem;
+}
+
+// H1 HEADING
+h1.home-heading {
+    color: white;
+    width: 100%;
+    margin-top: 10px;
+
+}
+
+// 
+// H2 SUBHEADING
+
+
+h2.home-subheading {
+    color: white;
+    margin-bottom: 10px;
+}
+
+h2.about-heading {
+    text-transform: capitalize;
+    color: $textColor;
+    margin-bottom: 50px;
+}
+
+h3 {
+    color: $subColor;
+    text-transform: capitalize; 
+    font-weight: $semiBold;
+}
+
+h4 {
+    text-transform: capitalize;
+    font-weight: $bold;
+    font-size: 1.2rem;
+    width: 100%;
+    text-align:center;
+    line-height: 1.1rem;
+    color: $textColor;
+}
+
+h6 {
+    font-size: 1.1rem;
+    color: $secondary;
+    text-transform: uppercase;
+}
+
+p {
+    font-size: 1.1rem;
+    font-weight: $light;
+}
+
+// 
+// P PARAGRAPHS
+p.home-cta-paragraph {
+    width: 80%;
+    margin-bottom: 30px;
+    color: white;
+}
+
+p.about-paragraph {
+    margin-bottom: 50px;
+    width: 80%;
+}

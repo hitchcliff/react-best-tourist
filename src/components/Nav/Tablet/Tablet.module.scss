@@ -1,0 +1,109 @@
+@import '../../../styles/global';
+
+.container {
+    display: block;
+
+    .nav  {
+        .mobile__dropdown {
+            display: block;
+        }
+    }
+}
+
+@media (max-width: 980px) {
+    .container {
+        display: block;
+        position: relative;
+        .nav {
+            width: 80%;
+            display: flex;
+            margin: 0 auto;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+
+            .burger {
+                width: 25px;
+                height: 15px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: space-between;
+                cursor: pointer;
+
+                &Line {
+                    width: 100%;
+                    height: 3px;
+                    background-color: black;
+                }
+
+                &.active {
+                   
+
+                    div {
+                        background: white;
+                    }
+                }
+
+            }
+
+
+            .mobile__dropdown {
+                position: absolute;
+                top: 50%;
+                left: 0;
+                padding: 40px;
+                height: auto;
+                width: 100%;
+                background: white;
+                display: flex;
+                flex-wrap: wrap;
+                flex-direction: row;
+                align-items: center;
+                justify-content: center;
+                z-index: -5;
+                opacity: 0;
+                transition: all .5s ease-in-out;
+
+                &.active {
+                    opacity: 1;
+                    z-index: 1231231;
+                    top: 100%;
+                }
+
+                li {
+                    list-style-type: none;
+                    display: block;
+
+                    a {
+                        color: $textColor;
+                        text-decoration: none;
+                        font-size: 1.2rem;
+                        display: block;
+                        padding: 10px 0;
+                    }
+
+                    &:not(last-child) {
+                        margin-right: 30px;
+                    }
+                }
+
+                .nav__login {
+    
+                    a {
+                        color: white;
+                        background: $subColor;
+                        padding: 10px 20px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 980px) {
+    .container {
+        display: none;
+
+    }
+}
